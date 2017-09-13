@@ -86,7 +86,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
                 break;
             case R.id.reg:
-
+                startActivity(new Intent(LoginActivity.this,RegistActivity.class));
                 break;
         }
     }
