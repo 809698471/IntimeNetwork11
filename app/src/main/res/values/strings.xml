@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Day9_12_Startpage</string>
+    <string name="hello_blank_fragment" />
 </resources>

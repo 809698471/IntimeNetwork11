@@ -162,6 +162,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
         if (m.find() || m1.find()) {
             Toast.makeText(this, "账号正确", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(LoginActivity.this,ShouYeActivity.class));
             if (password.length() >= 6 && password.length() <= 16) {
                 Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
             } else {

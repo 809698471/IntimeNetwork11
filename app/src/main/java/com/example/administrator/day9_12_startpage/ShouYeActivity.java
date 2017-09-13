@@ -32,7 +32,7 @@ public class ShouYeActivity extends AppCompatActivity {
 
 
     private void initView() {
-
+///////
         view_pager = (ViewPager) findViewById(R.id.view_pager);
         tab = (TabLayout) findViewById(R.id.tab);
 
