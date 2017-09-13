@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3cf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#3cf"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/fan" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:hint="请输入手机号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="80dp"
+        android:layout_alignLeft="@+id/et_pwd"
+        android:layout_alignStart="@+id/et_pwd"
+        android:layout_alignRight="@+id/et_pwd"
+        android:layout_alignEnd="@+id/et_pwd" />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:hint="请输入密码"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pwd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#3cf"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:text="注册"
+        android:id="@+id/btn_regist" />
+</RelativeLayout>

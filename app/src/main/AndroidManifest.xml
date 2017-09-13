@@ -72,6 +72,8 @@
             android:value="59b7c05cc62dca1d8a0001c5" />
 
         <activity android:name=".App"></activity>
+        <activity android:name=".RegistActivity"></activity>
+        <activity android:name=".ValidationActivity"></activity>
     </application>
 
 </manifest>
